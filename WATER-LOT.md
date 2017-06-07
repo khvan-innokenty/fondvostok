@@ -33,7 +33,7 @@ url_rts | VARCHAR(255) | Ссылка на площадку РТС-Тендер
 ```json
 {
    "id": "1234567890ABCD",
-   "coords":[
+   "coords": [
       {
          "lat": 43.406667,
          "lng": 134.895467
@@ -51,6 +51,69 @@ url_rts | VARCHAR(255) | Ссылка на площадку РТС-Тендер
          "lng": 134.898900
       }
    ],
-   "area": 242.71
+   "buffer_coords": [
+      {
+         "lat": 43.406667,
+         "lng": 134.895467
+      },
+      {
+         "lat": 43.419250,
+         "lng": 134.932517
+      },
+      {
+         "lat": 43.413717,
+         "lng": 134.937050
+      },
+      {
+         "lat": 43.400583,
+         "lng": 134.898900
+      }
+   ],
+   "status": 606,
+   "status_history": [
+      {
+         "status": 600,
+         "date": "2017-07-06"
+      },
+      {
+         "status": 601,
+         "date": "2017-07-07"
+      },
+      {
+         "status": 603,
+         "date": "2017-08-01"
+      },
+      {
+         "status": 604,
+         "date": "2017-08-11"
+      },
+      {
+         "status": 606,
+         "date": "2017-08-15"
+      }
+   ],
+   "area": 242.71,
+   "act": "Приказ территориального управления Росрыболовства от 03.06.2017 №106",
+   "municipality": "Приморский край",
+   "waterbodies": [
+      "Японское море",
+      "Охотское море"
+   ],
+   "landmarks": "3 км на запад от о. Беличий",
+   "start_price": 96954.84,
+   "deposit": 38781.93,
+   "bid_increment": 4664.77,
+   "vol_pasturable": 251.7,
+   "vol_industrial": 308.33,
+   "period_pasturable": 6,
+   "period_industrial": 4,
+   "water_use": "Совместное",
+   "auction_date": "2017-08-11",
+   "tenancy": 25,
+   "contract_date": "2017-08-15",
+   "contract_end_date": "2042-08-15",
+   "winner": "ООО \"МР\"",
+   "cost": 10517173.00,
+   "url_rts": "https://www.rts-tender.ru/..."
 }
 ```
