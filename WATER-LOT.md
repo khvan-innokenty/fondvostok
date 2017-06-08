@@ -7,6 +7,7 @@
 id | VARCHAR(20) | Уникальный идентификатор
 coords | array | Координаты углов участка
 buffer_coords | array | Координаты углов буферной зоны (эквидистанта участка)
+area | DECIMAL(10, 2) | Площадь участка (в гектарах)
 status | SMALLINT | Статус участка ([коды](https://github.com/khvan-innokenty/fondvostok/blob/master/CODES.md#Статусы-участков))
 status_history | array | История изменения статусов участка
 act | VARCHAR(255) | Правовой акт, определяющий границы РВУ
